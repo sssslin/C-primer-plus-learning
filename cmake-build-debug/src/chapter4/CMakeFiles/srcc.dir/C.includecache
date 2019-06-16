@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/defines.c
+
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/printout.c
+stdio.h
+-
+

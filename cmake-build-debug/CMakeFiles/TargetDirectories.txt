@@ -1,0 +1,10 @@
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/CMakeFiles/src.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/CMakeFiles/edit_cache.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/CMakeFiles/srcc.dir
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/CMakeFiles/edit_cache.dir

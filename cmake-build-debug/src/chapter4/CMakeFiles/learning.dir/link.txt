@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/learning.dir/talkback.c.o  -o learning.exe -Wl,--out-implib,liblearning.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
