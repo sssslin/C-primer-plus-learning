@@ -155,6 +155,18 @@
 		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/defines.c">
 			<Option target="srcc"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/flags.c">
+			<Option target="srcc"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floatcnv.c">
+			<Option target="srcc"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floats.c">
+			<Option target="srcc"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/intconv.c">
+			<Option target="srcc"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/pizza.c">
 			<Option target="srcc"/>
 		</Unit>
@@ -167,7 +179,13 @@
 		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/printout.c">
 			<Option target="srcc"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/stringf.c">
+			<Option target="srcc"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/talkback.c">
+			<Option target="srcc"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/width.c">
 			<Option target="srcc"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/CMakeLists.txt">

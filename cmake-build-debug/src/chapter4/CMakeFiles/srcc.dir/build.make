@@ -70,9 +70,61 @@ src/chapter4/CMakeFiles/srcc.dir/defines.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/defines.c.s"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/defines.c -o CMakeFiles/srcc.dir/defines.c.s
 
+src/chapter4/CMakeFiles/srcc.dir/flags.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
+src/chapter4/CMakeFiles/srcc.dir/flags.c.o: ../src/chapter4/flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/chapter4/CMakeFiles/srcc.dir/flags.c.o"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/flags.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/flags.c
+
+src/chapter4/CMakeFiles/srcc.dir/flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srcc.dir/flags.c.i"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/flags.c > CMakeFiles/srcc.dir/flags.c.i
+
+src/chapter4/CMakeFiles/srcc.dir/flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/flags.c.s"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/flags.c -o CMakeFiles/srcc.dir/flags.c.s
+
+src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
+src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.o: ../src/chapter4/floatcnv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.o"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/floatcnv.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floatcnv.c
+
+src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srcc.dir/floatcnv.c.i"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floatcnv.c > CMakeFiles/srcc.dir/floatcnv.c.i
+
+src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/floatcnv.c.s"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floatcnv.c -o CMakeFiles/srcc.dir/floatcnv.c.s
+
+src/chapter4/CMakeFiles/srcc.dir/floats.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
+src/chapter4/CMakeFiles/srcc.dir/floats.c.o: ../src/chapter4/floats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/chapter4/CMakeFiles/srcc.dir/floats.c.o"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/floats.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floats.c
+
+src/chapter4/CMakeFiles/srcc.dir/floats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srcc.dir/floats.c.i"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floats.c > CMakeFiles/srcc.dir/floats.c.i
+
+src/chapter4/CMakeFiles/srcc.dir/floats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/floats.c.s"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floats.c -o CMakeFiles/srcc.dir/floats.c.s
+
+src/chapter4/CMakeFiles/srcc.dir/intconv.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
+src/chapter4/CMakeFiles/srcc.dir/intconv.c.o: ../src/chapter4/intconv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/chapter4/CMakeFiles/srcc.dir/intconv.c.o"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/intconv.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/intconv.c
+
+src/chapter4/CMakeFiles/srcc.dir/intconv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srcc.dir/intconv.c.i"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/intconv.c > CMakeFiles/srcc.dir/intconv.c.i
+
+src/chapter4/CMakeFiles/srcc.dir/intconv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/intconv.c.s"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/intconv.c -o CMakeFiles/srcc.dir/intconv.c.s
+
 src/chapter4/CMakeFiles/srcc.dir/pizza.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
 src/chapter4/CMakeFiles/srcc.dir/pizza.c.o: ../src/chapter4/pizza.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/chapter4/CMakeFiles/srcc.dir/pizza.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/chapter4/CMakeFiles/srcc.dir/pizza.c.o"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/pizza.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/pizza.c
 
 src/chapter4/CMakeFiles/srcc.dir/pizza.c.i: cmake_force
@@ -85,7 +137,7 @@ src/chapter4/CMakeFiles/srcc.dir/pizza.c.s: cmake_force
 
 src/chapter4/CMakeFiles/srcc.dir/praise1.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
 src/chapter4/CMakeFiles/srcc.dir/praise1.c.o: ../src/chapter4/praise1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/chapter4/CMakeFiles/srcc.dir/praise1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/chapter4/CMakeFiles/srcc.dir/praise1.c.o"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/praise1.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/praise1.c
 
 src/chapter4/CMakeFiles/srcc.dir/praise1.c.i: cmake_force
@@ -98,7 +150,7 @@ src/chapter4/CMakeFiles/srcc.dir/praise1.c.s: cmake_force
 
 src/chapter4/CMakeFiles/srcc.dir/praise2.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
 src/chapter4/CMakeFiles/srcc.dir/praise2.c.o: ../src/chapter4/praise2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/chapter4/CMakeFiles/srcc.dir/praise2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/chapter4/CMakeFiles/srcc.dir/praise2.c.o"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/praise2.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/praise2.c
 
 src/chapter4/CMakeFiles/srcc.dir/praise2.c.i: cmake_force
@@ -111,7 +163,7 @@ src/chapter4/CMakeFiles/srcc.dir/praise2.c.s: cmake_force
 
 src/chapter4/CMakeFiles/srcc.dir/printout.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
 src/chapter4/CMakeFiles/srcc.dir/printout.c.o: ../src/chapter4/printout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/chapter4/CMakeFiles/srcc.dir/printout.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/chapter4/CMakeFiles/srcc.dir/printout.c.o"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/printout.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/printout.c
 
 src/chapter4/CMakeFiles/srcc.dir/printout.c.i: cmake_force
@@ -122,9 +174,22 @@ src/chapter4/CMakeFiles/srcc.dir/printout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/printout.c.s"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/printout.c -o CMakeFiles/srcc.dir/printout.c.s
 
+src/chapter4/CMakeFiles/srcc.dir/stringf.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
+src/chapter4/CMakeFiles/srcc.dir/stringf.c.o: ../src/chapter4/stringf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/chapter4/CMakeFiles/srcc.dir/stringf.c.o"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/stringf.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/stringf.c
+
+src/chapter4/CMakeFiles/srcc.dir/stringf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srcc.dir/stringf.c.i"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/stringf.c > CMakeFiles/srcc.dir/stringf.c.i
+
+src/chapter4/CMakeFiles/srcc.dir/stringf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/stringf.c.s"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/stringf.c -o CMakeFiles/srcc.dir/stringf.c.s
+
 src/chapter4/CMakeFiles/srcc.dir/talkback.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
 src/chapter4/CMakeFiles/srcc.dir/talkback.c.o: ../src/chapter4/talkback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/chapter4/CMakeFiles/srcc.dir/talkback.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/chapter4/CMakeFiles/srcc.dir/talkback.c.o"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/talkback.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/talkback.c
 
 src/chapter4/CMakeFiles/srcc.dir/talkback.c.i: cmake_force
@@ -135,27 +200,52 @@ src/chapter4/CMakeFiles/srcc.dir/talkback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/talkback.c.s"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/talkback.c -o CMakeFiles/srcc.dir/talkback.c.s
 
+src/chapter4/CMakeFiles/srcc.dir/width.c.o: src/chapter4/CMakeFiles/srcc.dir/flags.make
+src/chapter4/CMakeFiles/srcc.dir/width.c.o: ../src/chapter4/width.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/chapter4/CMakeFiles/srcc.dir/width.c.o"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srcc.dir/width.c.o   -c /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/width.c
+
+src/chapter4/CMakeFiles/srcc.dir/width.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srcc.dir/width.c.i"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/width.c > CMakeFiles/srcc.dir/width.c.i
+
+src/chapter4/CMakeFiles/srcc.dir/width.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srcc.dir/width.c.s"
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/width.c -o CMakeFiles/srcc.dir/width.c.s
+
 # Object files for target srcc
 srcc_OBJECTS = \
 "CMakeFiles/srcc.dir/defines.c.o" \
+"CMakeFiles/srcc.dir/flags.c.o" \
+"CMakeFiles/srcc.dir/floatcnv.c.o" \
+"CMakeFiles/srcc.dir/floats.c.o" \
+"CMakeFiles/srcc.dir/intconv.c.o" \
 "CMakeFiles/srcc.dir/pizza.c.o" \
 "CMakeFiles/srcc.dir/praise1.c.o" \
 "CMakeFiles/srcc.dir/praise2.c.o" \
 "CMakeFiles/srcc.dir/printout.c.o" \
-"CMakeFiles/srcc.dir/talkback.c.o"
+"CMakeFiles/srcc.dir/stringf.c.o" \
+"CMakeFiles/srcc.dir/talkback.c.o" \
+"CMakeFiles/srcc.dir/width.c.o"
 
 # External object files for target srcc
 srcc_EXTERNAL_OBJECTS =
 
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/defines.c.o
+src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/flags.c.o
+src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.o
+src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/floats.c.o
+src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/intconv.c.o
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/pizza.c.o
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/praise1.c.o
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/praise2.c.o
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/printout.c.o
+src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/stringf.c.o
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/talkback.c.o
+src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/width.c.o
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/build.make
 src/chapter4/srcc.exe: src/chapter4/CMakeFiles/srcc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable srcc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable srcc.exe"
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srcc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

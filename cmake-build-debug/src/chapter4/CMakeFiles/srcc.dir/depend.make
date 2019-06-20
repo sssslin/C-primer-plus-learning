@@ -3,6 +3,14 @@
 
 src/chapter4/CMakeFiles/srcc.dir/defines.c.o: ../src/chapter4/defines.c
 
+src/chapter4/CMakeFiles/srcc.dir/flags.c.o: ../src/chapter4/flags.c
+
+src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.o: ../src/chapter4/floatcnv.c
+
+src/chapter4/CMakeFiles/srcc.dir/floats.c.o: ../src/chapter4/floats.c
+
+src/chapter4/CMakeFiles/srcc.dir/intconv.c.o: ../src/chapter4/intconv.c
+
 src/chapter4/CMakeFiles/srcc.dir/pizza.c.o: ../src/chapter4/pizza.c
 
 src/chapter4/CMakeFiles/srcc.dir/praise1.c.o: ../src/chapter4/praise1.c
@@ -11,5 +19,9 @@ src/chapter4/CMakeFiles/srcc.dir/praise2.c.o: ../src/chapter4/praise2.c
 
 src/chapter4/CMakeFiles/srcc.dir/printout.c.o: ../src/chapter4/printout.c
 
+src/chapter4/CMakeFiles/srcc.dir/stringf.c.o: ../src/chapter4/stringf.c
+
 src/chapter4/CMakeFiles/srcc.dir/talkback.c.o: ../src/chapter4/talkback.c
+
+src/chapter4/CMakeFiles/srcc.dir/width.c.o: ../src/chapter4/width.c
 

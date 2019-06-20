@@ -152,6 +152,114 @@ defines.c.s:
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/defines.c.s
 .PHONY : defines.c.s
 
+flags.o: flags.c.o
+
+.PHONY : flags.o
+
+# target to build an object file
+flags.c.o:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/flags.c.o
+.PHONY : flags.c.o
+
+flags.i: flags.c.i
+
+.PHONY : flags.i
+
+# target to preprocess a source file
+flags.c.i:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/flags.c.i
+.PHONY : flags.c.i
+
+flags.s: flags.c.s
+
+.PHONY : flags.s
+
+# target to generate assembly for a file
+flags.c.s:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/flags.c.s
+.PHONY : flags.c.s
+
+floatcnv.o: floatcnv.c.o
+
+.PHONY : floatcnv.o
+
+# target to build an object file
+floatcnv.c.o:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.o
+.PHONY : floatcnv.c.o
+
+floatcnv.i: floatcnv.c.i
+
+.PHONY : floatcnv.i
+
+# target to preprocess a source file
+floatcnv.c.i:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.i
+.PHONY : floatcnv.c.i
+
+floatcnv.s: floatcnv.c.s
+
+.PHONY : floatcnv.s
+
+# target to generate assembly for a file
+floatcnv.c.s:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/floatcnv.c.s
+.PHONY : floatcnv.c.s
+
+floats.o: floats.c.o
+
+.PHONY : floats.o
+
+# target to build an object file
+floats.c.o:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/floats.c.o
+.PHONY : floats.c.o
+
+floats.i: floats.c.i
+
+.PHONY : floats.i
+
+# target to preprocess a source file
+floats.c.i:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/floats.c.i
+.PHONY : floats.c.i
+
+floats.s: floats.c.s
+
+.PHONY : floats.s
+
+# target to generate assembly for a file
+floats.c.s:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/floats.c.s
+.PHONY : floats.c.s
+
+intconv.o: intconv.c.o
+
+.PHONY : intconv.o
+
+# target to build an object file
+intconv.c.o:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/intconv.c.o
+.PHONY : intconv.c.o
+
+intconv.i: intconv.c.i
+
+.PHONY : intconv.i
+
+# target to preprocess a source file
+intconv.c.i:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/intconv.c.i
+.PHONY : intconv.c.i
+
+intconv.s: intconv.c.s
+
+.PHONY : intconv.s
+
+# target to generate assembly for a file
+intconv.c.s:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/intconv.c.s
+.PHONY : intconv.c.s
+
 pizza.o: pizza.c.o
 
 .PHONY : pizza.o
@@ -260,6 +368,33 @@ printout.c.s:
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/printout.c.s
 .PHONY : printout.c.s
 
+stringf.o: stringf.c.o
+
+.PHONY : stringf.o
+
+# target to build an object file
+stringf.c.o:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/stringf.c.o
+.PHONY : stringf.c.o
+
+stringf.i: stringf.c.i
+
+.PHONY : stringf.i
+
+# target to preprocess a source file
+stringf.c.i:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/stringf.c.i
+.PHONY : stringf.c.i
+
+stringf.s: stringf.c.s
+
+.PHONY : stringf.s
+
+# target to generate assembly for a file
+stringf.c.s:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/stringf.c.s
+.PHONY : stringf.c.s
+
 talkback.o: talkback.c.o
 
 .PHONY : talkback.o
@@ -287,6 +422,33 @@ talkback.c.s:
 	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/talkback.c.s
 .PHONY : talkback.c.s
 
+width.o: width.c.o
+
+.PHONY : width.o
+
+# target to build an object file
+width.c.o:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/width.c.o
+.PHONY : width.c.o
+
+width.i: width.c.i
+
+.PHONY : width.i
+
+# target to preprocess a source file
+width.c.i:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/width.c.i
+.PHONY : width.c.i
+
+width.s: width.c.s
+
+.PHONY : width.s
+
+# target to generate assembly for a file
+width.c.s:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/width.c.s
+.PHONY : width.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -299,6 +461,18 @@ help:
 	@echo "... defines.o"
 	@echo "... defines.i"
 	@echo "... defines.s"
+	@echo "... flags.o"
+	@echo "... flags.i"
+	@echo "... flags.s"
+	@echo "... floatcnv.o"
+	@echo "... floatcnv.i"
+	@echo "... floatcnv.s"
+	@echo "... floats.o"
+	@echo "... floats.i"
+	@echo "... floats.s"
+	@echo "... intconv.o"
+	@echo "... intconv.i"
+	@echo "... intconv.s"
 	@echo "... pizza.o"
 	@echo "... pizza.i"
 	@echo "... pizza.s"
@@ -311,9 +485,15 @@ help:
 	@echo "... printout.o"
 	@echo "... printout.i"
 	@echo "... printout.s"
+	@echo "... stringf.o"
+	@echo "... stringf.i"
+	@echo "... stringf.s"
 	@echo "... talkback.o"
 	@echo "... talkback.i"
 	@echo "... talkback.s"
+	@echo "... width.o"
+	@echo "... width.i"
+	@echo "... width.s"
 .PHONY : help
 
 

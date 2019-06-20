@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/defines.c
-
-/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/printout.c
+/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floatcnv.c
 stdio.h
 -
 

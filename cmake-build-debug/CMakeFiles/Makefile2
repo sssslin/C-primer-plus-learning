@@ -165,7 +165,7 @@ src/chapter4/preinstall:
 src/chapter4/CMakeFiles/srcc.dir/all:
 	$(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/depend
 	$(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19,20,21,22 "Built target srcc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target srcc"
 .PHONY : src/chapter4/CMakeFiles/srcc.dir/all
 
 # Include target in all.
@@ -175,7 +175,7 @@ all: src/chapter4/CMakeFiles/srcc.dir/all
 
 # Build rule for subdir invocation for target.
 src/chapter4/CMakeFiles/srcc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 src/chapter4/CMakeFiles/srcc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 0
 .PHONY : src/chapter4/CMakeFiles/srcc.dir/rule
