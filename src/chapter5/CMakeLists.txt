@@ -3,5 +3,5 @@ project(learningC C)
 
 set(CMAKE_C_STANDARD 11)
 
-AUX_SOURCE_DIRECTORY(. chapter1-3)
-add_executable(src1-3 ${chapter1-3})
+AUX_SOURCE_DIRECTORY(. chapter5)
+add_executable(src5 ${chapter5})

@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/chapter1-3/CMakeFiles/src.dir/rule:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter1-3/CMakeFiles/src.dir/rule
-.PHONY : src/chapter1-3/CMakeFiles/src.dir/rule
+src/chapter1-3/CMakeFiles/src1-3.dir/rule:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter1-3/CMakeFiles/src1-3.dir/rule
+.PHONY : src/chapter1-3/CMakeFiles/src1-3.dir/rule
 
 # Convenience name for target.
-src: src/chapter1-3/CMakeFiles/src.dir/rule
+src1-3: src/chapter1-3/CMakeFiles/src1-3.dir/rule
 
-.PHONY : src
+.PHONY : src1-3
 
 # fast build rule for target.
-src/fast:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/build
-.PHONY : src/fast
+src1-3/fast:
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/build
+.PHONY : src1-3/fast
 
 altnames.o: altnames.c.o
 
@@ -131,7 +131,7 @@ altnames.o: altnames.c.o
 
 # target to build an object file
 altnames.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/altnames.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/altnames.c.o
 .PHONY : altnames.c.o
 
 altnames.i: altnames.c.i
@@ -140,7 +140,7 @@ altnames.i: altnames.c.i
 
 # target to preprocess a source file
 altnames.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/altnames.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/altnames.c.i
 .PHONY : altnames.c.i
 
 altnames.s: altnames.c.s
@@ -149,7 +149,7 @@ altnames.s: altnames.c.s
 
 # target to generate assembly for a file
 altnames.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/altnames.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/altnames.c.s
 .PHONY : altnames.c.s
 
 badcount.o: badcount.c.o
@@ -158,7 +158,7 @@ badcount.o: badcount.c.o
 
 # target to build an object file
 badcount.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/badcount.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/badcount.c.o
 .PHONY : badcount.c.o
 
 badcount.i: badcount.c.i
@@ -167,7 +167,7 @@ badcount.i: badcount.c.i
 
 # target to preprocess a source file
 badcount.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/badcount.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/badcount.c.i
 .PHONY : badcount.c.i
 
 badcount.s: badcount.c.s
@@ -176,7 +176,7 @@ badcount.s: badcount.c.s
 
 # target to generate assembly for a file
 badcount.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/badcount.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/badcount.c.s
 .PHONY : badcount.c.s
 
 bases.o: bases.c.o
@@ -185,7 +185,7 @@ bases.o: bases.c.o
 
 # target to build an object file
 bases.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/bases.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/bases.c.o
 .PHONY : bases.c.o
 
 bases.i: bases.c.i
@@ -194,7 +194,7 @@ bases.i: bases.c.i
 
 # target to preprocess a source file
 bases.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/bases.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/bases.c.i
 .PHONY : bases.c.i
 
 bases.s: bases.c.s
@@ -203,7 +203,7 @@ bases.s: bases.c.s
 
 # target to generate assembly for a file
 bases.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/bases.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/bases.c.s
 .PHONY : bases.c.s
 
 charcode.o: charcode.c.o
@@ -212,7 +212,7 @@ charcode.o: charcode.c.o
 
 # target to build an object file
 charcode.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/charcode.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/charcode.c.o
 .PHONY : charcode.c.o
 
 charcode.i: charcode.c.i
@@ -221,7 +221,7 @@ charcode.i: charcode.c.i
 
 # target to preprocess a source file
 charcode.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/charcode.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/charcode.c.i
 .PHONY : charcode.c.i
 
 charcode.s: charcode.c.s
@@ -230,7 +230,7 @@ charcode.s: charcode.c.s
 
 # target to generate assembly for a file
 charcode.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/charcode.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/charcode.c.s
 .PHONY : charcode.c.s
 
 escape.o: escape.c.o
@@ -239,7 +239,7 @@ escape.o: escape.c.o
 
 # target to build an object file
 escape.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/escape.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/escape.c.o
 .PHONY : escape.c.o
 
 escape.i: escape.c.i
@@ -248,7 +248,7 @@ escape.i: escape.c.i
 
 # target to preprocess a source file
 escape.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/escape.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/escape.c.i
 .PHONY : escape.c.i
 
 escape.s: escape.c.s
@@ -257,7 +257,7 @@ escape.s: escape.c.s
 
 # target to generate assembly for a file
 escape.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/escape.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/escape.c.s
 .PHONY : escape.c.s
 
 fathm_ft.o: fathm_ft.c.o
@@ -266,7 +266,7 @@ fathm_ft.o: fathm_ft.c.o
 
 # target to build an object file
 fathm_ft.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/fathm_ft.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/fathm_ft.c.o
 .PHONY : fathm_ft.c.o
 
 fathm_ft.i: fathm_ft.c.i
@@ -275,7 +275,7 @@ fathm_ft.i: fathm_ft.c.i
 
 # target to preprocess a source file
 fathm_ft.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/fathm_ft.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/fathm_ft.c.i
 .PHONY : fathm_ft.c.i
 
 fathm_ft.s: fathm_ft.c.s
@@ -284,7 +284,7 @@ fathm_ft.s: fathm_ft.c.s
 
 # target to generate assembly for a file
 fathm_ft.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/fathm_ft.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/fathm_ft.c.s
 .PHONY : fathm_ft.c.s
 
 main.o: main.c.o
@@ -293,7 +293,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/main.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -302,7 +302,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/main.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -311,7 +311,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/main.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/main.c.s
 .PHONY : main.c.s
 
 platinum.o: platinum.c.o
@@ -320,7 +320,7 @@ platinum.o: platinum.c.o
 
 # target to build an object file
 platinum.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/platinum.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/platinum.c.o
 .PHONY : platinum.c.o
 
 platinum.i: platinum.c.i
@@ -329,7 +329,7 @@ platinum.i: platinum.c.i
 
 # target to preprocess a source file
 platinum.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/platinum.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/platinum.c.i
 .PHONY : platinum.c.i
 
 platinum.s: platinum.c.s
@@ -338,7 +338,7 @@ platinum.s: platinum.c.s
 
 # target to generate assembly for a file
 platinum.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/platinum.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/platinum.c.s
 .PHONY : platinum.c.s
 
 print1.o: print1.c.o
@@ -347,7 +347,7 @@ print1.o: print1.c.o
 
 # target to build an object file
 print1.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/print1.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/print1.c.o
 .PHONY : print1.c.o
 
 print1.i: print1.c.i
@@ -356,7 +356,7 @@ print1.i: print1.c.i
 
 # target to preprocess a source file
 print1.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/print1.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/print1.c.i
 .PHONY : print1.c.i
 
 print1.s: print1.c.s
@@ -365,7 +365,7 @@ print1.s: print1.c.s
 
 # target to generate assembly for a file
 print1.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/print1.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/print1.c.s
 .PHONY : print1.c.s
 
 print2.o: print2.c.o
@@ -374,7 +374,7 @@ print2.o: print2.c.o
 
 # target to build an object file
 print2.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/print2.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/print2.c.o
 .PHONY : print2.c.o
 
 print2.i: print2.c.i
@@ -383,7 +383,7 @@ print2.i: print2.c.i
 
 # target to preprocess a source file
 print2.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/print2.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/print2.c.i
 .PHONY : print2.c.i
 
 print2.s: print2.c.s
@@ -392,7 +392,7 @@ print2.s: print2.c.s
 
 # target to generate assembly for a file
 print2.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/print2.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/print2.c.s
 .PHONY : print2.c.s
 
 showf_pt.o: showf_pt.c.o
@@ -401,7 +401,7 @@ showf_pt.o: showf_pt.c.o
 
 # target to build an object file
 showf_pt.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/showf_pt.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/showf_pt.c.o
 .PHONY : showf_pt.c.o
 
 showf_pt.i: showf_pt.c.i
@@ -410,7 +410,7 @@ showf_pt.i: showf_pt.c.i
 
 # target to preprocess a source file
 showf_pt.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/showf_pt.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/showf_pt.c.i
 .PHONY : showf_pt.c.i
 
 showf_pt.s: showf_pt.c.s
@@ -419,7 +419,7 @@ showf_pt.s: showf_pt.c.s
 
 # target to generate assembly for a file
 showf_pt.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/showf_pt.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/showf_pt.c.s
 .PHONY : showf_pt.c.s
 
 toobig.o: toobig.c.o
@@ -428,7 +428,7 @@ toobig.o: toobig.c.o
 
 # target to build an object file
 toobig.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/toobig.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/toobig.c.o
 .PHONY : toobig.c.o
 
 toobig.i: toobig.c.i
@@ -437,7 +437,7 @@ toobig.i: toobig.c.i
 
 # target to preprocess a source file
 toobig.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/toobig.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/toobig.c.i
 .PHONY : toobig.c.i
 
 toobig.s: toobig.c.s
@@ -446,7 +446,7 @@ toobig.s: toobig.c.s
 
 # target to generate assembly for a file
 toobig.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/toobig.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/toobig.c.s
 .PHONY : toobig.c.s
 
 two_func.o: two_func.c.o
@@ -455,7 +455,7 @@ two_func.o: two_func.c.o
 
 # target to build an object file
 two_func.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/two_func.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/two_func.c.o
 .PHONY : two_func.c.o
 
 two_func.i: two_func.c.i
@@ -464,7 +464,7 @@ two_func.i: two_func.c.i
 
 # target to preprocess a source file
 two_func.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/two_func.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/two_func.c.i
 .PHONY : two_func.c.i
 
 two_func.s: two_func.c.s
@@ -473,7 +473,7 @@ two_func.s: two_func.c.s
 
 # target to generate assembly for a file
 two_func.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/two_func.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/two_func.c.s
 .PHONY : two_func.c.s
 
 typesize.o: typesize.c.o
@@ -482,7 +482,7 @@ typesize.o: typesize.c.o
 
 # target to build an object file
 typesize.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/typesize.c.o
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/typesize.c.o
 .PHONY : typesize.c.o
 
 typesize.i: typesize.c.i
@@ -491,7 +491,7 @@ typesize.i: typesize.c.i
 
 # target to preprocess a source file
 typesize.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/typesize.c.i
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/typesize.c.i
 .PHONY : typesize.c.i
 
 typesize.s: typesize.c.s
@@ -500,7 +500,7 @@ typesize.s: typesize.c.s
 
 # target to generate assembly for a file
 typesize.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/typesize.c.s
+	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/typesize.c.s
 .PHONY : typesize.c.s
 
 # Help Target
@@ -510,7 +510,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... src"
+	@echo "... src1-3"
 	@echo "... edit_cache"
 	@echo "... altnames.o"
 	@echo "... altnames.i"

@@ -111,30 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named src
+# Target rules for targets named src1-3
 
 # Build rule for target.
-src: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 src
-.PHONY : src
+src1-3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src1-3
+.PHONY : src1-3
 
 # fast build rule for target.
-src/fast:
-	$(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/build
-.PHONY : src/fast
+src1-3/fast:
+	$(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/build
+.PHONY : src1-3/fast
 
 #=============================================================================
-# Target rules for targets named srcc
+# Target rules for targets named src4
 
 # Build rule for target.
-srcc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 srcc
-.PHONY : srcc
+src4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src4
+.PHONY : src4
 
 # fast build rule for target.
-srcc/fast:
-	$(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/build
-.PHONY : srcc/fast
+src4/fast:
+	$(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/build
+.PHONY : src4/fast
+
+#=============================================================================
+# Target rules for targets named src5
+
+# Build rule for target.
+src5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src5
+.PHONY : src5
+
+# fast build rule for target.
+src5/fast:
+	$(MAKE) -f src/chapter5/CMakeFiles/src5.dir/build.make src/chapter5/CMakeFiles/src5.dir/build
+.PHONY : src5/fast
 
 # Help Target
 help:
@@ -144,8 +157,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... src"
-	@echo "... srcc"
+	@echo "... src1-3"
+	@echo "... src4"
+	@echo "... src5"
 .PHONY : help
 
 

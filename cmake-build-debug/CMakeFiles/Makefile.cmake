@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../src/CMakeLists.txt"
   "../src/chapter1-3/CMakeLists.txt"
   "../src/chapter4/CMakeLists.txt"
+  "../src/chapter5/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -49,10 +50,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/chapter1-3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/chapter4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/chapter5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/chapter1-3/CMakeFiles/src.dir/DependInfo.cmake"
-  "src/chapter4/CMakeFiles/srcc.dir/DependInfo.cmake"
+  "src/chapter1-3/CMakeFiles/src1-3.dir/DependInfo.cmake"
+  "src/chapter4/CMakeFiles/src4.dir/DependInfo.cmake"
+  "src/chapter5/CMakeFiles/src5.dir/DependInfo.cmake"
   )

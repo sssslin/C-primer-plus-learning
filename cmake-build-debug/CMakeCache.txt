@@ -210,10 +210,10 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf.exe
 ProcessorCount_cmd_sysctl:FILEPATH=ProcessorCount_cmd_sysctl-NOTFOUND
 
 //Value Computed by CMake
-learningC_BINARY_DIR:STATIC=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4
+learningC_BINARY_DIR:STATIC=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5
 
 //Value Computed by CMake
-learningC_SOURCE_DIR:STATIC=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4
+learningC_SOURCE_DIR:STATIC=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter5
 
 
 ########################
@@ -302,7 +302,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

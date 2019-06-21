@@ -70,18 +70,21 @@ CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/
 # Convenience name for "all" pass in the directory.
 src/all: src/chapter1-3/all
 src/all: src/chapter4/all
+src/all: src/chapter5/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
 src/clean: src/chapter1-3/clean
 src/clean: src/chapter4/clean
+src/clean: src/chapter5/clean
 
 .PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
 src/preinstall: src/chapter1-3/preinstall
 src/preinstall: src/chapter4/preinstall
+src/preinstall: src/chapter5/preinstall
 
 .PHONY : src/preinstall
 
@@ -89,12 +92,12 @@ src/preinstall: src/chapter4/preinstall
 # Directory level rules for directory src/chapter1-3
 
 # Convenience name for "all" pass in the directory.
-src/chapter1-3/all: src/chapter1-3/CMakeFiles/src.dir/all
+src/chapter1-3/all: src/chapter1-3/CMakeFiles/src1-3.dir/all
 
 .PHONY : src/chapter1-3/all
 
 # Convenience name for "clean" pass in the directory.
-src/chapter1-3/clean: src/chapter1-3/CMakeFiles/src.dir/clean
+src/chapter1-3/clean: src/chapter1-3/CMakeFiles/src1-3.dir/clean
 
 .PHONY : src/chapter1-3/clean
 
@@ -104,39 +107,39 @@ src/chapter1-3/preinstall:
 .PHONY : src/chapter1-3/preinstall
 
 #=============================================================================
-# Target rules for target src/chapter1-3/CMakeFiles/src.dir
+# Target rules for target src/chapter1-3/CMakeFiles/src1-3.dir
 
 # All Build rule for target.
-src/chapter1-3/CMakeFiles/src.dir/all:
-	$(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/depend
-	$(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target src"
-.PHONY : src/chapter1-3/CMakeFiles/src.dir/all
+src/chapter1-3/CMakeFiles/src1-3.dir/all:
+	$(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/depend
+	$(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target src1-3"
+.PHONY : src/chapter1-3/CMakeFiles/src1-3.dir/all
 
 # Include target in all.
-all: src/chapter1-3/CMakeFiles/src.dir/all
+all: src/chapter1-3/CMakeFiles/src1-3.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/chapter1-3/CMakeFiles/src.dir/rule: cmake_check_build_system
+src/chapter1-3/CMakeFiles/src1-3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 15
-	$(MAKE) -f CMakeFiles/Makefile2 src/chapter1-3/CMakeFiles/src.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter1-3/CMakeFiles/src1-3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 0
-.PHONY : src/chapter1-3/CMakeFiles/src.dir/rule
+.PHONY : src/chapter1-3/CMakeFiles/src1-3.dir/rule
 
 # Convenience name for target.
-src: src/chapter1-3/CMakeFiles/src.dir/rule
+src1-3: src/chapter1-3/CMakeFiles/src1-3.dir/rule
 
-.PHONY : src
-
-# clean rule for target.
-src/chapter1-3/CMakeFiles/src.dir/clean:
-	$(MAKE) -f src/chapter1-3/CMakeFiles/src.dir/build.make src/chapter1-3/CMakeFiles/src.dir/clean
-.PHONY : src/chapter1-3/CMakeFiles/src.dir/clean
+.PHONY : src1-3
 
 # clean rule for target.
-clean: src/chapter1-3/CMakeFiles/src.dir/clean
+src/chapter1-3/CMakeFiles/src1-3.dir/clean:
+	$(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/clean
+.PHONY : src/chapter1-3/CMakeFiles/src1-3.dir/clean
+
+# clean rule for target.
+clean: src/chapter1-3/CMakeFiles/src1-3.dir/clean
 
 .PHONY : clean
 
@@ -144,12 +147,12 @@ clean: src/chapter1-3/CMakeFiles/src.dir/clean
 # Directory level rules for directory src/chapter4
 
 # Convenience name for "all" pass in the directory.
-src/chapter4/all: src/chapter4/CMakeFiles/srcc.dir/all
+src/chapter4/all: src/chapter4/CMakeFiles/src4.dir/all
 
 .PHONY : src/chapter4/all
 
 # Convenience name for "clean" pass in the directory.
-src/chapter4/clean: src/chapter4/CMakeFiles/srcc.dir/clean
+src/chapter4/clean: src/chapter4/CMakeFiles/src4.dir/clean
 
 .PHONY : src/chapter4/clean
 
@@ -159,39 +162,94 @@ src/chapter4/preinstall:
 .PHONY : src/chapter4/preinstall
 
 #=============================================================================
-# Target rules for target src/chapter4/CMakeFiles/srcc.dir
+# Target rules for target src/chapter4/CMakeFiles/src4.dir
 
 # All Build rule for target.
-src/chapter4/CMakeFiles/srcc.dir/all:
-	$(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/depend
-	$(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target srcc"
-.PHONY : src/chapter4/CMakeFiles/srcc.dir/all
+src/chapter4/CMakeFiles/src4.dir/all:
+	$(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/depend
+	$(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target src4"
+.PHONY : src/chapter4/CMakeFiles/src4.dir/all
 
 # Include target in all.
-all: src/chapter4/CMakeFiles/srcc.dir/all
+all: src/chapter4/CMakeFiles/src4.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/chapter4/CMakeFiles/srcc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 src/chapter4/CMakeFiles/srcc.dir/all
+src/chapter4/CMakeFiles/src4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 18
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter4/CMakeFiles/src4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 0
-.PHONY : src/chapter4/CMakeFiles/srcc.dir/rule
+.PHONY : src/chapter4/CMakeFiles/src4.dir/rule
 
 # Convenience name for target.
-srcc: src/chapter4/CMakeFiles/srcc.dir/rule
+src4: src/chapter4/CMakeFiles/src4.dir/rule
 
-.PHONY : srcc
-
-# clean rule for target.
-src/chapter4/CMakeFiles/srcc.dir/clean:
-	$(MAKE) -f src/chapter4/CMakeFiles/srcc.dir/build.make src/chapter4/CMakeFiles/srcc.dir/clean
-.PHONY : src/chapter4/CMakeFiles/srcc.dir/clean
+.PHONY : src4
 
 # clean rule for target.
-clean: src/chapter4/CMakeFiles/srcc.dir/clean
+src/chapter4/CMakeFiles/src4.dir/clean:
+	$(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/clean
+.PHONY : src/chapter4/CMakeFiles/src4.dir/clean
+
+# clean rule for target.
+clean: src/chapter4/CMakeFiles/src4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter5
+
+# Convenience name for "all" pass in the directory.
+src/chapter5/all: src/chapter5/CMakeFiles/src5.dir/all
+
+.PHONY : src/chapter5/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter5/clean: src/chapter5/CMakeFiles/src5.dir/clean
+
+.PHONY : src/chapter5/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter5/preinstall:
+
+.PHONY : src/chapter5/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter5/CMakeFiles/src5.dir
+
+# All Build rule for target.
+src/chapter5/CMakeFiles/src5.dir/all:
+	$(MAKE) -f src/chapter5/CMakeFiles/src5.dir/build.make src/chapter5/CMakeFiles/src5.dir/depend
+	$(MAKE) -f src/chapter5/CMakeFiles/src5.dir/build.make src/chapter5/CMakeFiles/src5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target src5"
+.PHONY : src/chapter5/CMakeFiles/src5.dir/all
+
+# Include target in all.
+all: src/chapter5/CMakeFiles/src5.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter5/CMakeFiles/src5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter5/CMakeFiles/src5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter5/CMakeFiles/src5.dir/rule
+
+# Convenience name for target.
+src5: src/chapter5/CMakeFiles/src5.dir/rule
+
+.PHONY : src5
+
+# clean rule for target.
+src/chapter5/CMakeFiles/src5.dir/clean:
+	$(MAKE) -f src/chapter5/CMakeFiles/src5.dir/build.make src/chapter5/CMakeFiles/src5.dir/clean
+.PHONY : src/chapter5/CMakeFiles/src5.dir/clean
+
+# clean rule for target.
+clean: src/chapter5/CMakeFiles/src5.dir/clean
 
 .PHONY : clean
 
