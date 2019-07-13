@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC
+CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/learningC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/CMakeFiles/progress.marks
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/CMakeFiles 0
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/CMakeFiles /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/CMakeFiles/progress.marks
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/clean
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/preinstall
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/preinstall
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/chapter4/CMakeFiles/src4.dir/rule:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/CMakeFiles/src4.dir/rule
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/chapter4/CMakeFiles/src4.dir/rule
 .PHONY : src/chapter4/CMakeFiles/src4.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ src4: src/chapter4/CMakeFiles/src4.dir/rule
 
 # fast build rule for target.
 src4/fast:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/build
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/build
 .PHONY : src4/fast
 
 defines.o: defines.c.o
@@ -131,7 +131,7 @@ defines.o: defines.c.o
 
 # target to build an object file
 defines.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/defines.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/defines.c.o
 .PHONY : defines.c.o
 
 defines.i: defines.c.i
@@ -140,7 +140,7 @@ defines.i: defines.c.i
 
 # target to preprocess a source file
 defines.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/defines.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/defines.c.i
 .PHONY : defines.c.i
 
 defines.s: defines.c.s
@@ -149,7 +149,7 @@ defines.s: defines.c.s
 
 # target to generate assembly for a file
 defines.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/defines.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/defines.c.s
 .PHONY : defines.c.s
 
 flags.o: flags.c.o
@@ -158,7 +158,7 @@ flags.o: flags.c.o
 
 # target to build an object file
 flags.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/flags.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/flags.c.o
 .PHONY : flags.c.o
 
 flags.i: flags.c.i
@@ -167,7 +167,7 @@ flags.i: flags.c.i
 
 # target to preprocess a source file
 flags.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/flags.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/flags.c.i
 .PHONY : flags.c.i
 
 flags.s: flags.c.s
@@ -176,7 +176,7 @@ flags.s: flags.c.s
 
 # target to generate assembly for a file
 flags.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/flags.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/flags.c.s
 .PHONY : flags.c.s
 
 floatcnv.o: floatcnv.c.o
@@ -185,7 +185,7 @@ floatcnv.o: floatcnv.c.o
 
 # target to build an object file
 floatcnv.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floatcnv.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floatcnv.c.o
 .PHONY : floatcnv.c.o
 
 floatcnv.i: floatcnv.c.i
@@ -194,7 +194,7 @@ floatcnv.i: floatcnv.c.i
 
 # target to preprocess a source file
 floatcnv.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floatcnv.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floatcnv.c.i
 .PHONY : floatcnv.c.i
 
 floatcnv.s: floatcnv.c.s
@@ -203,7 +203,7 @@ floatcnv.s: floatcnv.c.s
 
 # target to generate assembly for a file
 floatcnv.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floatcnv.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floatcnv.c.s
 .PHONY : floatcnv.c.s
 
 floats.o: floats.c.o
@@ -212,7 +212,7 @@ floats.o: floats.c.o
 
 # target to build an object file
 floats.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floats.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floats.c.o
 .PHONY : floats.c.o
 
 floats.i: floats.c.i
@@ -221,7 +221,7 @@ floats.i: floats.c.i
 
 # target to preprocess a source file
 floats.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floats.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floats.c.i
 .PHONY : floats.c.i
 
 floats.s: floats.c.s
@@ -230,7 +230,7 @@ floats.s: floats.c.s
 
 # target to generate assembly for a file
 floats.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floats.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/floats.c.s
 .PHONY : floats.c.s
 
 input.o: input.c.o
@@ -239,7 +239,7 @@ input.o: input.c.o
 
 # target to build an object file
 input.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/input.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/input.c.o
 .PHONY : input.c.o
 
 input.i: input.c.i
@@ -248,7 +248,7 @@ input.i: input.c.i
 
 # target to preprocess a source file
 input.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/input.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/input.c.i
 .PHONY : input.c.i
 
 input.s: input.c.s
@@ -257,7 +257,7 @@ input.s: input.c.s
 
 # target to generate assembly for a file
 input.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/input.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/input.c.s
 .PHONY : input.c.s
 
 intconv.o: intconv.c.o
@@ -266,7 +266,7 @@ intconv.o: intconv.c.o
 
 # target to build an object file
 intconv.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/intconv.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/intconv.c.o
 .PHONY : intconv.c.o
 
 intconv.i: intconv.c.i
@@ -275,7 +275,7 @@ intconv.i: intconv.c.i
 
 # target to preprocess a source file
 intconv.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/intconv.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/intconv.c.i
 .PHONY : intconv.c.i
 
 intconv.s: intconv.c.s
@@ -284,7 +284,7 @@ intconv.s: intconv.c.s
 
 # target to generate assembly for a file
 intconv.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/intconv.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/intconv.c.s
 .PHONY : intconv.c.s
 
 longstrg.o: longstrg.c.o
@@ -293,7 +293,7 @@ longstrg.o: longstrg.c.o
 
 # target to build an object file
 longstrg.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/longstrg.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/longstrg.c.o
 .PHONY : longstrg.c.o
 
 longstrg.i: longstrg.c.i
@@ -302,7 +302,7 @@ longstrg.i: longstrg.c.i
 
 # target to preprocess a source file
 longstrg.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/longstrg.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/longstrg.c.i
 .PHONY : longstrg.c.i
 
 longstrg.s: longstrg.c.s
@@ -311,7 +311,7 @@ longstrg.s: longstrg.c.s
 
 # target to generate assembly for a file
 longstrg.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/longstrg.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/longstrg.c.s
 .PHONY : longstrg.c.s
 
 pizza.o: pizza.c.o
@@ -320,7 +320,7 @@ pizza.o: pizza.c.o
 
 # target to build an object file
 pizza.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/pizza.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/pizza.c.o
 .PHONY : pizza.c.o
 
 pizza.i: pizza.c.i
@@ -329,7 +329,7 @@ pizza.i: pizza.c.i
 
 # target to preprocess a source file
 pizza.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/pizza.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/pizza.c.i
 .PHONY : pizza.c.i
 
 pizza.s: pizza.c.s
@@ -338,7 +338,7 @@ pizza.s: pizza.c.s
 
 # target to generate assembly for a file
 pizza.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/pizza.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/pizza.c.s
 .PHONY : pizza.c.s
 
 praise1.o: praise1.c.o
@@ -347,7 +347,7 @@ praise1.o: praise1.c.o
 
 # target to build an object file
 praise1.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise1.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise1.c.o
 .PHONY : praise1.c.o
 
 praise1.i: praise1.c.i
@@ -356,7 +356,7 @@ praise1.i: praise1.c.i
 
 # target to preprocess a source file
 praise1.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise1.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise1.c.i
 .PHONY : praise1.c.i
 
 praise1.s: praise1.c.s
@@ -365,7 +365,7 @@ praise1.s: praise1.c.s
 
 # target to generate assembly for a file
 praise1.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise1.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise1.c.s
 .PHONY : praise1.c.s
 
 praise2.o: praise2.c.o
@@ -374,7 +374,7 @@ praise2.o: praise2.c.o
 
 # target to build an object file
 praise2.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise2.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise2.c.o
 .PHONY : praise2.c.o
 
 praise2.i: praise2.c.i
@@ -383,7 +383,7 @@ praise2.i: praise2.c.i
 
 # target to preprocess a source file
 praise2.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise2.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise2.c.i
 .PHONY : praise2.c.i
 
 praise2.s: praise2.c.s
@@ -392,7 +392,7 @@ praise2.s: praise2.c.s
 
 # target to generate assembly for a file
 praise2.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise2.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/praise2.c.s
 .PHONY : praise2.c.s
 
 printout.o: printout.c.o
@@ -401,7 +401,7 @@ printout.o: printout.c.o
 
 # target to build an object file
 printout.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/printout.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/printout.c.o
 .PHONY : printout.c.o
 
 printout.i: printout.c.i
@@ -410,7 +410,7 @@ printout.i: printout.c.i
 
 # target to preprocess a source file
 printout.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/printout.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/printout.c.i
 .PHONY : printout.c.i
 
 printout.s: printout.c.s
@@ -419,7 +419,7 @@ printout.s: printout.c.s
 
 # target to generate assembly for a file
 printout.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/printout.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/printout.c.s
 .PHONY : printout.c.s
 
 prntval.o: prntval.c.o
@@ -428,7 +428,7 @@ prntval.o: prntval.c.o
 
 # target to build an object file
 prntval.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/prntval.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/prntval.c.o
 .PHONY : prntval.c.o
 
 prntval.i: prntval.c.i
@@ -437,7 +437,7 @@ prntval.i: prntval.c.i
 
 # target to preprocess a source file
 prntval.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/prntval.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/prntval.c.i
 .PHONY : prntval.c.i
 
 prntval.s: prntval.c.s
@@ -446,7 +446,7 @@ prntval.s: prntval.c.s
 
 # target to generate assembly for a file
 prntval.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/prntval.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/prntval.c.s
 .PHONY : prntval.c.s
 
 skip2.o: skip2.c.o
@@ -455,7 +455,7 @@ skip2.o: skip2.c.o
 
 # target to build an object file
 skip2.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/skip2.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/skip2.c.o
 .PHONY : skip2.c.o
 
 skip2.i: skip2.c.i
@@ -464,7 +464,7 @@ skip2.i: skip2.c.i
 
 # target to preprocess a source file
 skip2.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/skip2.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/skip2.c.i
 .PHONY : skip2.c.i
 
 skip2.s: skip2.c.s
@@ -473,7 +473,7 @@ skip2.s: skip2.c.s
 
 # target to generate assembly for a file
 skip2.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/skip2.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/skip2.c.s
 .PHONY : skip2.c.s
 
 stringf.o: stringf.c.o
@@ -482,7 +482,7 @@ stringf.o: stringf.c.o
 
 # target to build an object file
 stringf.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/stringf.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/stringf.c.o
 .PHONY : stringf.c.o
 
 stringf.i: stringf.c.i
@@ -491,7 +491,7 @@ stringf.i: stringf.c.i
 
 # target to preprocess a source file
 stringf.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/stringf.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/stringf.c.i
 .PHONY : stringf.c.i
 
 stringf.s: stringf.c.s
@@ -500,7 +500,7 @@ stringf.s: stringf.c.s
 
 # target to generate assembly for a file
 stringf.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/stringf.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/stringf.c.s
 .PHONY : stringf.c.s
 
 talkback.o: talkback.c.o
@@ -509,7 +509,7 @@ talkback.o: talkback.c.o
 
 # target to build an object file
 talkback.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/talkback.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/talkback.c.o
 .PHONY : talkback.c.o
 
 talkback.i: talkback.c.i
@@ -518,7 +518,7 @@ talkback.i: talkback.c.i
 
 # target to preprocess a source file
 talkback.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/talkback.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/talkback.c.i
 .PHONY : talkback.c.i
 
 talkback.s: talkback.c.s
@@ -527,7 +527,7 @@ talkback.s: talkback.c.s
 
 # target to generate assembly for a file
 talkback.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/talkback.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/talkback.c.s
 .PHONY : talkback.c.s
 
 varwid.o: varwid.c.o
@@ -536,7 +536,7 @@ varwid.o: varwid.c.o
 
 # target to build an object file
 varwid.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/varwid.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/varwid.c.o
 .PHONY : varwid.c.o
 
 varwid.i: varwid.c.i
@@ -545,7 +545,7 @@ varwid.i: varwid.c.i
 
 # target to preprocess a source file
 varwid.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/varwid.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/varwid.c.i
 .PHONY : varwid.c.i
 
 varwid.s: varwid.c.s
@@ -554,7 +554,7 @@ varwid.s: varwid.c.s
 
 # target to generate assembly for a file
 varwid.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/varwid.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/varwid.c.s
 .PHONY : varwid.c.s
 
 width.o: width.c.o
@@ -563,7 +563,7 @@ width.o: width.c.o
 
 # target to build an object file
 width.c.o:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/width.c.o
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/width.c.o
 .PHONY : width.c.o
 
 width.i: width.c.i
@@ -572,7 +572,7 @@ width.i: width.c.i
 
 # target to preprocess a source file
 width.c.i:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/width.c.i
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/width.c.i
 .PHONY : width.c.i
 
 width.s: width.c.s
@@ -581,7 +581,7 @@ width.s: width.c.s
 
 # target to generate assembly for a file
 width.c.s:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/width.c.s
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/width.c.s
 .PHONY : width.c.s
 
 # Help Target
@@ -655,6 +655,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

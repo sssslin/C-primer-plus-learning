@@ -1,4 +1,11 @@
-C:\Users\MrLin\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC
+C:\Users\MrLin\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/DownloadAndData/private/C++andC/private/learningC
+-- The C compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug
+-- Build files have been written to: /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug

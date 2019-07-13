@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\chapter1-3\;CMake Files\src\chapter4\;CMake Files\src\chapter5\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src1-3">
-				<Option output="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/src1-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3"/>
+				<Option output="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/src1-3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,15 +49,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 src1-3"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 src1-3"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src1-3/fast">
-				<Option output="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/src1-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3"/>
+				<Option output="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/src1-3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,15 +67,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 src1-3/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 src1-3/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src4">
-				<Option output="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/src4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4"/>
+				<Option output="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/src4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -85,15 +85,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 src4"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 src4"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src4/fast">
-				<Option output="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/src4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4"/>
+				<Option output="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/src4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -103,15 +103,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 src4/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 src4/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src5">
-				<Option output="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/src5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5"/>
+				<Option output="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/src5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -121,15 +121,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 src5"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 src5"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src5/fast">
-				<Option output="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/src5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5"/>
+				<Option output="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/src5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -139,122 +139,137 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 src5/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 src5/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/altnames.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/altnames.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/badcount.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/badcount.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/bases.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/bases.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/charcode.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/charcode.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/escape.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/escape.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/fathm_ft.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/fathm_ft.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/main.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/main.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/platinum.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/platinum.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/print1.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/print1.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/print2.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/print2.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/showf_pt.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/showf_pt.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/toobig.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/toobig.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/two_func.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/two_func.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/typesize.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/typesize.c">
 			<Option target="src1-3"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/defines.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/defines.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/flags.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/flags.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floatcnv.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/floatcnv.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/floats.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/floats.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/input.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/input.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/intconv.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/intconv.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/longstrg.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/longstrg.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/pizza.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/pizza.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/praise1.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/praise1.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/praise2.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/praise2.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/printout.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/printout.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/prntval.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/prntval.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/skip2.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/skip2.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/stringf.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/stringf.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/talkback.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/talkback.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/varwid.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/varwid.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/width.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/width.c">
 			<Option target="src4"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter5/shoes1.c">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/divide.c">
 			<Option target="src5"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/golf.c">
+			<Option target="src5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/shoes1.c">
+			<Option target="src5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/shoes2.c">
+			<Option target="src5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/squares.c">
+			<Option target="src5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/wheat.c">
+			<Option target="src5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter1-3/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter1-3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\chapter1-3\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter4/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\chapter4\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/DownloadAndData/CLionWorkspace/private/learningC/src/chapter5/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\chapter5\"/>
 		</Unit>
 	</Project>
