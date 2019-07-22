@@ -242,7 +242,13 @@
 		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/add_one.c">
 			<Option target="src5"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/addemup.c">
+			<Option target="src5"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/bottles.c">
+			<Option target="src5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/convert.c">
 			<Option target="src5"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/divide.c">
@@ -257,7 +263,13 @@
 		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/post_pre.c">
 			<Option target="src5"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/pound.c">
+			<Option target="src5"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/rule.c">
+			<Option target="src5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/running.c">
 			<Option target="src5"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src/chapter5/shoes1.c">
