@@ -1,4 +1,11 @@
-C:\Users\MrLin\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/DownloadAndData/private/C++andC/private/learningC
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug
+C:\Users\MrLin\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning
+CMake Error at src/CMakeLists.txt:9 (ADD_SUBDIRECTORY):
+  The source directory
+
+    /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/src/chapter6
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles/CMakeOutput.log".

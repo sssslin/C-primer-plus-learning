@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/learningC
+CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/CMakeFiles /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,19 @@ src5/fast:
 	$(MAKE) -f src/chapter5/CMakeFiles/src5.dir/build.make src/chapter5/CMakeFiles/src5.dir/build
 .PHONY : src5/fast
 
+#=============================================================================
+# Target rules for targets named src6
+
+# Build rule for target.
+src6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src6
+.PHONY : src6
+
+# fast build rule for target.
+src6/fast:
+	$(MAKE) -f src/chapter6/CMakeFiles/src6.dir/build.make src/chapter6/CMakeFiles/src6.dir/build
+.PHONY : src6/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,6 +173,7 @@ help:
 	@echo "... src1-3"
 	@echo "... src4"
 	@echo "... src5"
+	@echo "... src6"
 .PHONY : help
 
 

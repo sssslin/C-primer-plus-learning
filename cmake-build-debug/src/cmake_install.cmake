@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/d/DownloadAndData/private/C++andC/private/learningC/src
+# Install script for directory: /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,16 +34,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter1-3/cmake_install.cmake")
+  include("/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/src/chapter1-3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter4/cmake_install.cmake")
+  include("/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/src/chapter4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/cygdrive/d/DownloadAndData/private/C++andC/private/learningC/cmake-build-debug/src/chapter5/cmake_install.cmake")
+  include("/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/src/chapter5/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/src/chapter6/cmake_install.cmake")
 endif()
 
