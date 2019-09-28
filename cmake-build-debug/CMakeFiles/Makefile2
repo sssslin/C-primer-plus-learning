@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/MrLin/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/MrLin/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning
+CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for directory src
@@ -72,6 +72,13 @@ src/all: src/chapter1-3/all
 src/all: src/chapter4/all
 src/all: src/chapter5/all
 src/all: src/chapter6/all
+src/all: src/chapter7/all
+src/all: src/chapter8/all
+src/all: src/chapter9/all
+src/all: src/chapter10/all
+src/all: src/chapter11/all
+src/all: src/chapter12/all
+src/all: src/chapter13/all
 
 .PHONY : src/all
 
@@ -80,6 +87,13 @@ src/clean: src/chapter1-3/clean
 src/clean: src/chapter4/clean
 src/clean: src/chapter5/clean
 src/clean: src/chapter6/clean
+src/clean: src/chapter7/clean
+src/clean: src/chapter8/clean
+src/clean: src/chapter9/clean
+src/clean: src/chapter10/clean
+src/clean: src/chapter11/clean
+src/clean: src/chapter12/clean
+src/clean: src/chapter13/clean
 
 .PHONY : src/clean
 
@@ -88,6 +102,13 @@ src/preinstall: src/chapter1-3/preinstall
 src/preinstall: src/chapter4/preinstall
 src/preinstall: src/chapter5/preinstall
 src/preinstall: src/chapter6/preinstall
+src/preinstall: src/chapter7/preinstall
+src/preinstall: src/chapter8/preinstall
+src/preinstall: src/chapter9/preinstall
+src/preinstall: src/chapter10/preinstall
+src/preinstall: src/chapter11/preinstall
+src/preinstall: src/chapter12/preinstall
+src/preinstall: src/chapter13/preinstall
 
 .PHONY : src/preinstall
 
@@ -116,7 +137,7 @@ src/chapter1-3/preinstall:
 src/chapter1-3/CMakeFiles/src1-3.dir/all:
 	$(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/depend
 	$(MAKE) -f src/chapter1-3/CMakeFiles/src1-3.dir/build.make src/chapter1-3/CMakeFiles/src1-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target src1-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target src1-3"
 .PHONY : src/chapter1-3/CMakeFiles/src1-3.dir/all
 
 # Include target in all.
@@ -126,9 +147,9 @@ all: src/chapter1-3/CMakeFiles/src1-3.dir/all
 
 # Build rule for subdir invocation for target.
 src/chapter1-3/CMakeFiles/src1-3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/chapter1-3/CMakeFiles/src1-3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
 .PHONY : src/chapter1-3/CMakeFiles/src1-3.dir/rule
 
 # Convenience name for target.
@@ -171,7 +192,7 @@ src/chapter4/preinstall:
 src/chapter4/CMakeFiles/src4.dir/all:
 	$(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/depend
 	$(MAKE) -f src/chapter4/CMakeFiles/src4.dir/build.make src/chapter4/CMakeFiles/src4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target src4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56 "Built target src4"
 .PHONY : src/chapter4/CMakeFiles/src4.dir/all
 
 # Include target in all.
@@ -181,9 +202,9 @@ all: src/chapter4/CMakeFiles/src4.dir/all
 
 # Build rule for subdir invocation for target.
 src/chapter4/CMakeFiles/src4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 src/chapter4/CMakeFiles/src4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
 .PHONY : src/chapter4/CMakeFiles/src4.dir/rule
 
 # Convenience name for target.
@@ -226,7 +247,7 @@ src/chapter5/preinstall:
 src/chapter5/CMakeFiles/src5.dir/all:
 	$(MAKE) -f src/chapter5/CMakeFiles/src5.dir/build.make src/chapter5/CMakeFiles/src5.dir/depend
 	$(MAKE) -f src/chapter5/CMakeFiles/src5.dir/build.make src/chapter5/CMakeFiles/src5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target src5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65 "Built target src5"
 .PHONY : src/chapter5/CMakeFiles/src5.dir/all
 
 # Include target in all.
@@ -236,9 +257,9 @@ all: src/chapter5/CMakeFiles/src5.dir/all
 
 # Build rule for subdir invocation for target.
 src/chapter5/CMakeFiles/src5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 src/chapter5/CMakeFiles/src5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
 .PHONY : src/chapter5/CMakeFiles/src5.dir/rule
 
 # Convenience name for target.
@@ -281,7 +302,7 @@ src/chapter6/preinstall:
 src/chapter6/CMakeFiles/src6.dir/all:
 	$(MAKE) -f src/chapter6/CMakeFiles/src6.dir/build.make src/chapter6/CMakeFiles/src6.dir/depend
 	$(MAKE) -f src/chapter6/CMakeFiles/src6.dir/build.make src/chapter6/CMakeFiles/src6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles --progress-num=51,52,53 "Built target src6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target src6"
 .PHONY : src/chapter6/CMakeFiles/src6.dir/all
 
 # Include target in all.
@@ -291,9 +312,9 @@ all: src/chapter6/CMakeFiles/src6.dir/all
 
 # Build rule for subdir invocation for target.
 src/chapter6/CMakeFiles/src6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 src/chapter6/CMakeFiles/src6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
 .PHONY : src/chapter6/CMakeFiles/src6.dir/rule
 
 # Convenience name for target.
@@ -308,6 +329,391 @@ src/chapter6/CMakeFiles/src6.dir/clean:
 
 # clean rule for target.
 clean: src/chapter6/CMakeFiles/src6.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter7
+
+# Convenience name for "all" pass in the directory.
+src/chapter7/all: src/chapter7/CMakeFiles/src7.dir/all
+
+.PHONY : src/chapter7/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter7/clean: src/chapter7/CMakeFiles/src7.dir/clean
+
+.PHONY : src/chapter7/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter7/preinstall:
+
+.PHONY : src/chapter7/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter7/CMakeFiles/src7.dir
+
+# All Build rule for target.
+src/chapter7/CMakeFiles/src7.dir/all:
+	$(MAKE) -f src/chapter7/CMakeFiles/src7.dir/build.make src/chapter7/CMakeFiles/src7.dir/depend
+	$(MAKE) -f src/chapter7/CMakeFiles/src7.dir/build.make src/chapter7/CMakeFiles/src7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=81,82,83,84,85,86,87 "Built target src7"
+.PHONY : src/chapter7/CMakeFiles/src7.dir/all
+
+# Include target in all.
+all: src/chapter7/CMakeFiles/src7.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter7/CMakeFiles/src7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter7/CMakeFiles/src7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter7/CMakeFiles/src7.dir/rule
+
+# Convenience name for target.
+src7: src/chapter7/CMakeFiles/src7.dir/rule
+
+.PHONY : src7
+
+# clean rule for target.
+src/chapter7/CMakeFiles/src7.dir/clean:
+	$(MAKE) -f src/chapter7/CMakeFiles/src7.dir/build.make src/chapter7/CMakeFiles/src7.dir/clean
+.PHONY : src/chapter7/CMakeFiles/src7.dir/clean
+
+# clean rule for target.
+clean: src/chapter7/CMakeFiles/src7.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter8
+
+# Convenience name for "all" pass in the directory.
+src/chapter8/all: src/chapter8/CMakeFiles/src8.dir/all
+
+.PHONY : src/chapter8/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter8/clean: src/chapter8/CMakeFiles/src8.dir/clean
+
+.PHONY : src/chapter8/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter8/preinstall:
+
+.PHONY : src/chapter8/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter8/CMakeFiles/src8.dir
+
+# All Build rule for target.
+src/chapter8/CMakeFiles/src8.dir/all:
+	$(MAKE) -f src/chapter8/CMakeFiles/src8.dir/build.make src/chapter8/CMakeFiles/src8.dir/depend
+	$(MAKE) -f src/chapter8/CMakeFiles/src8.dir/build.make src/chapter8/CMakeFiles/src8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=88,89,90,91,92 "Built target src8"
+.PHONY : src/chapter8/CMakeFiles/src8.dir/all
+
+# Include target in all.
+all: src/chapter8/CMakeFiles/src8.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter8/CMakeFiles/src8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter8/CMakeFiles/src8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter8/CMakeFiles/src8.dir/rule
+
+# Convenience name for target.
+src8: src/chapter8/CMakeFiles/src8.dir/rule
+
+.PHONY : src8
+
+# clean rule for target.
+src/chapter8/CMakeFiles/src8.dir/clean:
+	$(MAKE) -f src/chapter8/CMakeFiles/src8.dir/build.make src/chapter8/CMakeFiles/src8.dir/clean
+.PHONY : src/chapter8/CMakeFiles/src8.dir/clean
+
+# clean rule for target.
+clean: src/chapter8/CMakeFiles/src8.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter9
+
+# Convenience name for "all" pass in the directory.
+src/chapter9/all: src/chapter9/CMakeFiles/src9.dir/all
+
+.PHONY : src/chapter9/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter9/clean: src/chapter9/CMakeFiles/src9.dir/clean
+
+.PHONY : src/chapter9/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter9/preinstall:
+
+.PHONY : src/chapter9/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter9/CMakeFiles/src9.dir
+
+# All Build rule for target.
+src/chapter9/CMakeFiles/src9.dir/all:
+	$(MAKE) -f src/chapter9/CMakeFiles/src9.dir/build.make src/chapter9/CMakeFiles/src9.dir/depend
+	$(MAKE) -f src/chapter9/CMakeFiles/src9.dir/build.make src/chapter9/CMakeFiles/src9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=93,94,95,96,97,98,99,100 "Built target src9"
+.PHONY : src/chapter9/CMakeFiles/src9.dir/all
+
+# Include target in all.
+all: src/chapter9/CMakeFiles/src9.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter9/CMakeFiles/src9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter9/CMakeFiles/src9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter9/CMakeFiles/src9.dir/rule
+
+# Convenience name for target.
+src9: src/chapter9/CMakeFiles/src9.dir/rule
+
+.PHONY : src9
+
+# clean rule for target.
+src/chapter9/CMakeFiles/src9.dir/clean:
+	$(MAKE) -f src/chapter9/CMakeFiles/src9.dir/build.make src/chapter9/CMakeFiles/src9.dir/clean
+.PHONY : src/chapter9/CMakeFiles/src9.dir/clean
+
+# clean rule for target.
+clean: src/chapter9/CMakeFiles/src9.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter10
+
+# Convenience name for "all" pass in the directory.
+src/chapter10/all: src/chapter10/CMakeFiles/src10.dir/all
+
+.PHONY : src/chapter10/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter10/clean: src/chapter10/CMakeFiles/src10.dir/clean
+
+.PHONY : src/chapter10/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter10/preinstall:
+
+.PHONY : src/chapter10/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter10/CMakeFiles/src10.dir
+
+# All Build rule for target.
+src/chapter10/CMakeFiles/src10.dir/all:
+	$(MAKE) -f src/chapter10/CMakeFiles/src10.dir/build.make src/chapter10/CMakeFiles/src10.dir/depend
+	$(MAKE) -f src/chapter10/CMakeFiles/src10.dir/build.make src/chapter10/CMakeFiles/src10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18 "Built target src10"
+.PHONY : src/chapter10/CMakeFiles/src10.dir/all
+
+# Include target in all.
+all: src/chapter10/CMakeFiles/src10.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter10/CMakeFiles/src10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter10/CMakeFiles/src10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter10/CMakeFiles/src10.dir/rule
+
+# Convenience name for target.
+src10: src/chapter10/CMakeFiles/src10.dir/rule
+
+.PHONY : src10
+
+# clean rule for target.
+src/chapter10/CMakeFiles/src10.dir/clean:
+	$(MAKE) -f src/chapter10/CMakeFiles/src10.dir/build.make src/chapter10/CMakeFiles/src10.dir/clean
+.PHONY : src/chapter10/CMakeFiles/src10.dir/clean
+
+# clean rule for target.
+clean: src/chapter10/CMakeFiles/src10.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter11
+
+# Convenience name for "all" pass in the directory.
+src/chapter11/all: src/chapter11/CMakeFiles/src11.dir/all
+
+.PHONY : src/chapter11/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter11/clean: src/chapter11/CMakeFiles/src11.dir/clean
+
+.PHONY : src/chapter11/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter11/preinstall:
+
+.PHONY : src/chapter11/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter11/CMakeFiles/src11.dir
+
+# All Build rule for target.
+src/chapter11/CMakeFiles/src11.dir/all:
+	$(MAKE) -f src/chapter11/CMakeFiles/src11.dir/build.make src/chapter11/CMakeFiles/src11.dir/depend
+	$(MAKE) -f src/chapter11/CMakeFiles/src11.dir/build.make src/chapter11/CMakeFiles/src11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target src11"
+.PHONY : src/chapter11/CMakeFiles/src11.dir/all
+
+# Include target in all.
+all: src/chapter11/CMakeFiles/src11.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter11/CMakeFiles/src11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 17
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter11/CMakeFiles/src11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter11/CMakeFiles/src11.dir/rule
+
+# Convenience name for target.
+src11: src/chapter11/CMakeFiles/src11.dir/rule
+
+.PHONY : src11
+
+# clean rule for target.
+src/chapter11/CMakeFiles/src11.dir/clean:
+	$(MAKE) -f src/chapter11/CMakeFiles/src11.dir/build.make src/chapter11/CMakeFiles/src11.dir/clean
+.PHONY : src/chapter11/CMakeFiles/src11.dir/clean
+
+# clean rule for target.
+clean: src/chapter11/CMakeFiles/src11.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter12
+
+# Convenience name for "all" pass in the directory.
+src/chapter12/all: src/chapter12/CMakeFiles/src12.dir/all
+
+.PHONY : src/chapter12/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter12/clean: src/chapter12/CMakeFiles/src12.dir/clean
+
+.PHONY : src/chapter12/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter12/preinstall:
+
+.PHONY : src/chapter12/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter12/CMakeFiles/src12.dir
+
+# All Build rule for target.
+src/chapter12/CMakeFiles/src12.dir/all:
+	$(MAKE) -f src/chapter12/CMakeFiles/src12.dir/build.make src/chapter12/CMakeFiles/src12.dir/depend
+	$(MAKE) -f src/chapter12/CMakeFiles/src12.dir/build.make src/chapter12/CMakeFiles/src12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44 "Built target src12"
+.PHONY : src/chapter12/CMakeFiles/src12.dir/all
+
+# Include target in all.
+all: src/chapter12/CMakeFiles/src12.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter12/CMakeFiles/src12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter12/CMakeFiles/src12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter12/CMakeFiles/src12.dir/rule
+
+# Convenience name for target.
+src12: src/chapter12/CMakeFiles/src12.dir/rule
+
+.PHONY : src12
+
+# clean rule for target.
+src/chapter12/CMakeFiles/src12.dir/clean:
+	$(MAKE) -f src/chapter12/CMakeFiles/src12.dir/build.make src/chapter12/CMakeFiles/src12.dir/clean
+.PHONY : src/chapter12/CMakeFiles/src12.dir/clean
+
+# clean rule for target.
+clean: src/chapter12/CMakeFiles/src12.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/chapter13
+
+# Convenience name for "all" pass in the directory.
+src/chapter13/all: src/chapter13/CMakeFiles/src13.dir/all
+
+.PHONY : src/chapter13/all
+
+# Convenience name for "clean" pass in the directory.
+src/chapter13/clean: src/chapter13/CMakeFiles/src13.dir/clean
+
+.PHONY : src/chapter13/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/chapter13/preinstall:
+
+.PHONY : src/chapter13/preinstall
+
+#=============================================================================
+# Target rules for target src/chapter13/CMakeFiles/src13.dir
+
+# All Build rule for target.
+src/chapter13/CMakeFiles/src13.dir/all:
+	$(MAKE) -f src/chapter13/CMakeFiles/src13.dir/build.make src/chapter13/CMakeFiles/src13.dir/depend
+	$(MAKE) -f src/chapter13/CMakeFiles/src13.dir/build.make src/chapter13/CMakeFiles/src13.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles --progress-num=45,46,47 "Built target src13"
+.PHONY : src/chapter13/CMakeFiles/src13.dir/all
+
+# Include target in all.
+all: src/chapter13/CMakeFiles/src13.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/chapter13/CMakeFiles/src13.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 src/chapter13/CMakeFiles/src13.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
+.PHONY : src/chapter13/CMakeFiles/src13.dir/rule
+
+# Convenience name for target.
+src13: src/chapter13/CMakeFiles/src13.dir/rule
+
+.PHONY : src13
+
+# clean rule for target.
+src/chapter13/CMakeFiles/src13.dir/clean:
+	$(MAKE) -f src/chapter13/CMakeFiles/src13.dir/build.make src/chapter13/CMakeFiles/src13.dir/clean
+.PHONY : src/chapter13/CMakeFiles/src13.dir/clean
+
+# clean rule for target.
+clean: src/chapter13/CMakeFiles/src13.dir/clean
 
 .PHONY : clean
 

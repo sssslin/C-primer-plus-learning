@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/MrLin/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/MrLin/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning
+CMAKE_SOURCE_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/MrLin/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/MrLin/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/MrLin/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,6 +162,97 @@ src6/fast:
 	$(MAKE) -f src/chapter6/CMakeFiles/src6.dir/build.make src/chapter6/CMakeFiles/src6.dir/build
 .PHONY : src6/fast
 
+#=============================================================================
+# Target rules for targets named src7
+
+# Build rule for target.
+src7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src7
+.PHONY : src7
+
+# fast build rule for target.
+src7/fast:
+	$(MAKE) -f src/chapter7/CMakeFiles/src7.dir/build.make src/chapter7/CMakeFiles/src7.dir/build
+.PHONY : src7/fast
+
+#=============================================================================
+# Target rules for targets named src8
+
+# Build rule for target.
+src8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src8
+.PHONY : src8
+
+# fast build rule for target.
+src8/fast:
+	$(MAKE) -f src/chapter8/CMakeFiles/src8.dir/build.make src/chapter8/CMakeFiles/src8.dir/build
+.PHONY : src8/fast
+
+#=============================================================================
+# Target rules for targets named src9
+
+# Build rule for target.
+src9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src9
+.PHONY : src9
+
+# fast build rule for target.
+src9/fast:
+	$(MAKE) -f src/chapter9/CMakeFiles/src9.dir/build.make src/chapter9/CMakeFiles/src9.dir/build
+.PHONY : src9/fast
+
+#=============================================================================
+# Target rules for targets named src10
+
+# Build rule for target.
+src10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src10
+.PHONY : src10
+
+# fast build rule for target.
+src10/fast:
+	$(MAKE) -f src/chapter10/CMakeFiles/src10.dir/build.make src/chapter10/CMakeFiles/src10.dir/build
+.PHONY : src10/fast
+
+#=============================================================================
+# Target rules for targets named src11
+
+# Build rule for target.
+src11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src11
+.PHONY : src11
+
+# fast build rule for target.
+src11/fast:
+	$(MAKE) -f src/chapter11/CMakeFiles/src11.dir/build.make src/chapter11/CMakeFiles/src11.dir/build
+.PHONY : src11/fast
+
+#=============================================================================
+# Target rules for targets named src12
+
+# Build rule for target.
+src12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src12
+.PHONY : src12
+
+# fast build rule for target.
+src12/fast:
+	$(MAKE) -f src/chapter12/CMakeFiles/src12.dir/build.make src/chapter12/CMakeFiles/src12.dir/build
+.PHONY : src12/fast
+
+#=============================================================================
+# Target rules for targets named src13
+
+# Build rule for target.
+src13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src13
+.PHONY : src13
+
+# fast build rule for target.
+src13/fast:
+	$(MAKE) -f src/chapter13/CMakeFiles/src13.dir/build.make src/chapter13/CMakeFiles/src13.dir/build
+.PHONY : src13/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +265,13 @@ help:
 	@echo "... src4"
 	@echo "... src5"
 	@echo "... src6"
+	@echo "... src7"
+	@echo "... src8"
+	@echo "... src9"
+	@echo "... src10"
+	@echo "... src11"
+	@echo "... src12"
+	@echo "... src13"
 .PHONY : help
 
 

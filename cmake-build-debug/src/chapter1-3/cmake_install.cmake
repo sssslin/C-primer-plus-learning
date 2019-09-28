@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/d/DownloadAndData/CLionWorkspace/private/C-learning/src/chapter1-3
+# Install script for directory: /cygdrive/d/DownloadAndData/private/C++andC/private/c-learning/C-primer-plus-learning/src/chapter1-3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
